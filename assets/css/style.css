@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #151125;
+    ;
+}
+
+.bg-primary {
+    background-color: #151125 !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #151125 !important;
+}
+
+
+h4 {
+    text-align: center;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    padding-left: 0;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+}
+
+#sidebar-container .logo {
+    padding: .875rem 1.25rem;
+}
+
+#sidebar-container .menu {
+    width: 18rem;
+}
+
+.btn-search {
+    right: 0;
+}
+
+.avatar {
+    max-width: 35px;
+}
+
+#contect {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+/* h3 {
+    text-transform: uppercase;
+} */
+
+td:nth-child(7) {
+    
+    color: #c50505;
+}
+    
+
+th {
+    text-transform: uppercase;
+    
+}
+
+table {
+    border: 2px solid grey;
+        border-collapse: collapse;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Web | Perfil</title>
+
+    <!-- Boostatrap CSS -->
+    <link rel="stylesheet" href="../assets/vendor/bootstrap-4.6.0/css/bootstrap.min.css">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="../assets/vendor/font-awesome/css/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="d-flex">
+        <div id="sidebar-container" class="bg-primary">
+            <div class="logo">
+                <h4>Aplicación Web</h4>
+            </div>
+            <div class="menu">
+                <ul class="menu-item">
+                    <ol><a href="../index.html" class="d-block text-light p-3"><i class="fa fa-home mr-2 lead"
+                                aria-hidden="true"></i>Inicio</a></ol>
+                    <ol><a href="perfil.html" class="d-block text-light p-3"><i class="fa fa-user mr-2 lead"
+                                aria-hidden="true"></i>Perfil</a></ol>
+                    <ol><a href="tablas.html" class="d-block text-light p-3"><i class="fa fa-sitemap mr-2 lead"
+                                aria-hidden="true"></i>Tablas</a></ol>
+                    <ol><a href="" class="d-block text-light p-3"><i class="fa fa-check-square-o mr-2 lead"
+                                aria-hidden="true"></i>Formularios</a></ol>
+                    <ol><a href="configuracion.html" class="d-block text-light p-3"><i class="fa fa-cog mr-2 lead"
+                                aria-hidden="true"></i>Configuración</a></ol>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="w-100">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <form class="form-inline position-relative my-2 d-inline-block">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-search position-absolute" type="submit"><i class="fa fa-search mr-2 lead"
+                                aria-hidden="true"></i></a></button>
+                    </form>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-gears mr-2 lead"
+                                        aria-hidden="true"></i>Soporte</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                                    Yadiel Bárbaro DH
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="perfil.html">Perfil</a>
+                                    <a class="dropdown-item" href="configuracion.html">Configuración</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Cerrar sesión</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="contect">
+                <section class="py-3">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1>Formularios</h1>
+                                <p class="text-muted">Inicio / Formularios</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="container mt-5">
+                        <h3 class="text-center mb-3">Formulario con Bootstrap</h3>
+                        <form>
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Nombre</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="nombre" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Carnet de Identidad</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="carnet" pattern="[0-9]{11}"
+                                        title="Debe poner 11 dígitos" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Fecha de Nacimeinto</label>
+                                <div class="col-sm-9">
+                                    <input type="date" class="form-control" id="fecha" min="1950-01-01" max="2021-04-14"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-3 col-form-label">Subir Foto</label>
+                                <div class="col-sm-9">
+                                    <input type="file" class="form-control" id="archivo" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-outline-primary ">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Jquery JS -->
+    <script src="../assets/vendor/jquery/jquery.min.js"></script>
+    <!-- Boostatrap JS -->
+    <script src="../assets/vendor/bootstrap-4.6.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
